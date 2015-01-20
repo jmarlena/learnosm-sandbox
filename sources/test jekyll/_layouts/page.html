@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <p>Catégorie : {% for c in page.categories %} <a href="/categories/{{c}}" >{{ c | prepend: "#" }}</a>{% endfor %}</p>
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
