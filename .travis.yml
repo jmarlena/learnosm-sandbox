@@ -2,10 +2,10 @@ language: ruby
 install:
 - bundle install
 script: bundle exec rake site:deploy
-global:
-  env:
-    - "GIT_NAME=pyrog"
-    - "GIT_EMAIL=pyrog@laposte.net"
-    - "GIT_TOKEN=d00a60c158ee0baed9d375a06f77e54484413827"
+#global:
+  #env:
+    #- "GIT_NAME=jmarlena"
+    #- "GIT_EMAIL=jmarlena.canepa@gmail.com"
+    #- "GIT_TOKEN=d000000000000000000000000"
     #secure: F5Sng/rhcLI2eY8G+S1D06VGJrjllQIHJSJKAACyogv3OW4mCS1uFvxuRefEFz1b5kslOCvSlezgZUKi3o5VrIm/WOriZ1bCrpi7DmCyihZwFMtVwGvTDI7TJtUmRTviAb1OFpEWdfLv653GXSABsehc16f5/RyURMONOVe0DX0=
-    - "MONGO_URL=mongodb://localhost/"
+    #- "MONGO_URL=mongodb://localhost/"
