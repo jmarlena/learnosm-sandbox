@@ -25,7 +25,7 @@ permalink: pretty
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-username: pyrog
+username: jmarlena 
 repo: learnosm-sandbox
 #branch: master
 #production_url:  http://pyrog.github.io/learnosm-sandbox
