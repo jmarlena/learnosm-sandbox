@@ -7,5 +7,4 @@ script: bundle exec rake site:deploy
     #- "GIT_NAME=jmarlena"
     #- "GIT_EMAIL=jmarlena.canepa@gmail.com"
     #- "GIT_TOKEN=d000000000000000000000000"
-    #secure: F5Sng/rhcLI2eY8G+S1D06VGJrjllQIHJSJKAACyogv3OW4mCS1uFvxuRefEFz1b5kslOCvSlezgZUKi3o5VrIm/WOriZ1bCrpi7DmCyihZwFMtVwGvTDI7TJtUmRTviAb1OFpEWdfLv653GXSABsehc16f5/RyURMONOVe0DX0=
-    #- "MONGO_URL=mongodb://localhost/"
+    #secure: 00000000000000000
