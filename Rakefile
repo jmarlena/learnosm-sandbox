@@ -93,7 +93,7 @@ def check_destination
   puts "GIT_TOKEN=#{ENV['GIT_TOKEN']}"
   unless Dir.exist? CONFIG["destination"]
     puts "Cloning with token"
-    sh "git clone https://pyrog:d00a60c158ee0baed9d375a06f77e54484413827@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    sh "git clone https://jmarlena:3VP8jW3SDJS3xdgApi7V@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
   end
 end
 
@@ -204,8 +204,8 @@ namespace :site do
 
     # Configure git if this is run in Travis CI
     #if ENV["TRAVIS"]
-      sh "git config --global user.name 'travis on behalf of pyrog'"
-      sh "git config --global user.email 'pyrog@laposte.net'"
+      sh "git config --global user.name 'travis on behalf of jmarlena'"
+      sh "git config --global user.email 'jmarlena.canepa@gmail.com'"
       sh "git config --global push.default simple"
     #end
 
